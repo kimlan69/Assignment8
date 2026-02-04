@@ -1,0 +1,7 @@
+
+package LEC10_Abstraction.AbstractionClass.NonAbstractMethod;
+
+
+public class Square extends Shape {
+    
+}
