@@ -1,13 +1,19 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Lec11_Encapsulation.JavaAcessModifer.Rule2.Text1;
 
-/**
- *
- * @author Admin
- */
-public class AccessModifer2 {
-    
+
+public class AccessModifer2 extends AccessModifer  {
+    public void display() {
+
+        System.out.println(df);
+        System.out.println(pro);
+        System.out.println(pbl);
+    }
+
+    public static void main(String[] args) {
+        AccessModifer2 b = new AccessModifer2();
+        b.display();
+    }
 }
+
+
