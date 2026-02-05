@@ -1,8 +1,6 @@
 package Lec11_Encapsulation.JavaAcessModifer.Rule1;
 
-public class AccessModifer {
-
-    public class AccessModifier {
+    public class AccessModifer {
 
         private int pvt = 1;
         int df = 2;
@@ -15,6 +13,10 @@ public class AccessModifer {
             System.out.println(pro);
             System.out.println(pbl);
         }
+        public static void main(String[] args) {
+        AccessModifier a = new AccessModifier();
+        a.display();
     }
-}
+    }
     
+
